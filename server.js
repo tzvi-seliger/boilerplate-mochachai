@@ -61,7 +61,6 @@ var travellers = function(req, res){
   res.json(data);
 };
 
-
 app.route('/travellers')
   .put(travellers);
 
